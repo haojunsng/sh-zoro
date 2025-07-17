@@ -1,6 +1,5 @@
 import csv
 import json
-import argparse
 
 def csv_to_jsonl(input_csv, output_jsonl):
     with open(input_csv, newline='', encoding='utf-8') as csvfile, open(output_jsonl, 'w', encoding='utf-8') as jsonlfile:
