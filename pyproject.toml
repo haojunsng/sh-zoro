@@ -1,0 +1,21 @@
+[project]
+name = "roronoa"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "haojunsng",email = "snghaojun18@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13, <4.0"
+dependencies = [
+    "sentence-transformers (>=5.0.0,<6.0.0)"
+]
+
+[tool.poetry]
+
+[tool.poetry.group.dev.dependencies]
+pinecone = "^7.3.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
